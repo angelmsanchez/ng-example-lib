@@ -11,8 +11,9 @@
     "lint": "ng lint",
     "ng": "ng",
     "pack": "cd dist/ng-example-lib && yarn pack",
-    "package": "yarn run build:lib && yarn run pack",
-    "start": "ng serve",
+    "package": "yarn run build:lib && yarn run copy:files && yarn run pack",
+    "publish": "npm publish ./dist/ng-example-lib/ng-example-lib-v0.0.2.tgz",
+    "start": "ng serve --o",
     "test": "ng test"
   },
   "private": true,
