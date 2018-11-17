@@ -1,6 +1,6 @@
 {
   "name": "example-lib-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "build": "ng build",
     "build:lib": "ng build ng-example-lib",
@@ -12,7 +12,7 @@
     "ng": "ng",
     "pack": "cd dist/ng-example-lib && yarn pack",
     "package": "yarn run build:lib && yarn run copy:files && yarn run pack",
-    "publish": "npm publish ./dist/ng-example-lib/ng-example-lib-v0.0.2.tgz",
+    "publish": "npm publish ./dist/ng-example-lib/ng-example-lib-v0.0.3.tgz",
     "start": "ng serve --o",
     "test": "ng test"
   },

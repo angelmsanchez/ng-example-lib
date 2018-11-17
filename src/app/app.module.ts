@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { NgExampleLibModule } from 'ng-example-lib';
+
 @NgModule({
   declarations: [
     AppComponent
